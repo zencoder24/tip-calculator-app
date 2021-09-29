@@ -1,0 +1,45 @@
+/*Sass was used throughout this project for easy reference to colors
+ used throughout and to edit classes in Bulma. */
+
+
+//Import Space Mono Font
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+
+//Primary
+$primary:  hsl(172, 67%, 45%);
+
+///Neutral
+$VeryDarkCyan: hsl(183, 100%, 15%);
+$DarkGrayishCyan: hsl(186, 14%, 43%);
+$DarkGrayishCyan2:  hsl(184, 14%, 56%);
+$LightGrayishCyan: hsl(185, 41%, 84%);
+$LightGrayishCyan2:  hsl(189, 41%, 97%);
+$White: hsl(0, 0%, 100%);
+
+//Font
+$family-monospace: 'Space Mono', monospace;
+
+//Input
+$input-focus-border-color: forestgreen;
+
+//Button Styles
+$button-background-color:$VeryDarkCyan;
+$button-color: $White;
+$button-focus-color: $VeryDarkCyan;
+$button-focus-border-color: none;
+$button-focus-box-shadow-size: 0;
+$button-text-hover-background-color: red;
+$button-text-hover-color: $White;
+
+
+
+
+
+// Bulma Import
+@import '~bulma';
+
+//HTML Base Styles
+html{
+  background:$LightGrayishCyan;
+  font-family: $family-monospace ;
+}
