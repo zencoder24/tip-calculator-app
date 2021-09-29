@@ -89,7 +89,7 @@ export default {
 </script>
 
 
-<style lang="scss" >
+<style lang="scss" scoped >
   .calculator-wrapper{
     background: $white;
     height: 100vh;
@@ -131,15 +131,16 @@ export default {
   @media all and (min-width: 768px){
     .calculator-wrapper{
       flex-direction: row;
-      height: 52vh;
+      height: 63vh;
       margin: 0 auto;
       width: 95%;
       padding: 0;
 
     }
     .input-group{
-      margin: 2% 4% 4% 4%;
+      margin: 0 4%;
       width: 50%;
+      padding-top: 41px;
     }
     .calculated-container{
       margin: 4%;
