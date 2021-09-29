@@ -164,7 +164,7 @@ export default {
   @media all and (min-width: 1440px){
     .calculator-wrapper{
       width: 65%;
-      height: 51vh;
+      height: 55vh;
     }
   }
 
