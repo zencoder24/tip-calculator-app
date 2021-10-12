@@ -93,7 +93,7 @@ export default {
   .calculator-wrapper{
     background: $white;
     height: 100vh;
-    width: 96%;
+    width: 100%;
     margin-top: 30px;
     margin-right: 25px;
     border-radius: 30px;
